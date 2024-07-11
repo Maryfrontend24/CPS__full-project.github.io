@@ -1,0 +1,24 @@
+.action-button{
+@include reset-button;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: var(--button-min-width--big);
+    max-width: var(--button-max-width--big);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 38.86px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white-color);
+    background:var(--base-color) url("image/dropdown.svg") no-repeat 85% 50%;
+    border-radius:var(--border-radius-btn--big);
+
+    @include hover-btn;
+}

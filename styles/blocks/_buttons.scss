@@ -1,0 +1,23 @@
+.button {
+        @include reset-button;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: var(--button-width);
+        height: var(--button-height);
+        flex-shrink: 0;
+        background-color: var(--base-color);
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 50%; 
+        
+        @include hover {
+            background-color: rgba(255, 62, 121, 0.7);
+            
+        }
+        
+}
+
+
+
