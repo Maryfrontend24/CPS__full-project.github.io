@@ -1,1 +1,6 @@
-# CPS__full-project.github.io
+# CPS
+Вёрстка тренировочного макета
+
+## Просмотр
+
+Для просмотра свёрстанного макета перейдите по [ссылке](https://dehoffe.github.io/CPS/dist/index.html)

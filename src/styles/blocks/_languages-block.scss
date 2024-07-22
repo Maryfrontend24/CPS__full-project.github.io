@@ -1,0 +1,29 @@
+.languages-list {
+    display: flex;
+    padding-left: 16px;
+    margin: 0;
+    
+    list-style: none;
+
+    &__item {
+        margin-right: 7px;
+    }
+
+    &__link {
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-decoration: none;
+        color: var(--black-color);
+
+        &:hover {
+            color: var(--active-text-color);
+        }
+
+        &--current {
+            color: var(--active-text-color);
+        }
+    }
+}

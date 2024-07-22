@@ -1,0 +1,25 @@
+
+
+.page-footer {
+    padding-top: 16px;
+    padding-bottom: 1px;
+
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 16px;
+    color: var(--active-text-color);
+
+    background-color: var(--background-color);
+    border-top: 1px solid var(--shadow-color);
+
+    @media screen and (min-width: 426px) {
+        display: flex;
+        justify-content: space-between;
+        padding: 32px 24px 24px;
+    }
+
+    @media screen and (min-width: 1120px) {
+        padding-left:32px;
+    }
+}
